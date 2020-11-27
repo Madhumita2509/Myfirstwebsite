@@ -1,0 +1,112 @@
+﻿h1,h3{
+	color:maroon;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:bold;
+}
+body{
+
+	color:maroon;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:auto;
+	width:960px;
+}
+a:link,a:visited{
+	text-decoration:none;
+	/*color:maroon;*/
+	font-weight:bold;
+}
+a:hover{
+color:black;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+
+}
+nav li{
+
+
+display:inline;
+float:left;
+
+
+}
+nav a:link,a:visited{
+	display:block;
+	background-color:maroon;
+	color:#FFFFFF;
+	text-align:center;
+	width:160px;
+	padding: 10px 16px;
+	margin-top:90px;
+	margin-bottom:20px;
+	border:thick;
+}
+nav a:hover{
+	background-color:black;
+}
+aside{
+	width:280px;
+	float:right;
+	background-color:#FF9933;
+	text-align:center;
+	font-weight:bold;
+	padding:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.photo{
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+.photoright{
+	float:right;
+	margin-left:20px;
+}
+header{
+	background-image:url('images/cbg2.jpg');
+	height:150px;
+	margin-bottom:70px;
+	margin-top:;
+}
+header h1{
+	color:rgba(256,256,256,80);
+	margin-left:30px;
+	margin-top:10px;
+	text-size:50px;
+}
+footer{
+
+	margin:20px 0px 30px 0px;
+}
+footer nav a:link,footer nav a:visited{
+	color:gray;
+	text-decoration:none;
+	display:block;
+	width:160px;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+footer nav a:hover{
+	color:black;
+}
+label{
+	display:block;
+	width:200px;
+	float:left;
+	margin:10px 5px;
+	clear:left;
+	text-align:right;
+}
+input,select,textarea{
+	margin:10px 5px;
+	vertical-align:middle;
+
+}
+.check{
+	vertical-align:middle;
+	margin:20px 5px;
+
+
+}
